@@ -1,0 +1,2 @@
+This repository contains the formula to install ARGoS3 on MacOSX
+through Homebrew.
