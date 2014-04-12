@@ -2,9 +2,9 @@ require "formula"
 
 class Argos3 < Formula
   homepage "http://iridia.ulb.ac.be/argos/"
-  url "https://github.com/ilpincy/argos3/archive/3.0.0-beta23.tar.gz"
-  sha1 "cc8f4fc9c914074100184b441a45f749247e6df8"
-  version "3.0.0-beta23"
+  url "https://github.com/ilpincy/argos3/archive/3.0.0-beta24.tar.gz"
+  sha1 "863664babed2b3fdc597b03bc98f292315887e45"
+  version "3.0.0-beta24"
   head "https://github.com/ilpincy/argos3.git"
 
   option 'without-qt', 'Compile without the Qt-OpenGL visualization'
