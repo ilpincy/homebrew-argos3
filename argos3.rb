@@ -18,7 +18,7 @@ class Argos3 < Formula
   depends_on "gsl"
   depends_on "libpng"
   depends_on "freeimage"
-  depends_on "lua" => :recommended
+  depends_on "lua51" => :recommended
   depends_on "qt" => :recommended
 
   def install
