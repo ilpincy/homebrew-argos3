@@ -1,10 +1,10 @@
 require "formula"
 
 class Argos3 < Formula
-  homepage "http://iridia.ulb.ac.be/argos/"
-  url "https://github.com/ilpincy/argos3/archive/3.0.0-beta30.tar.gz"
-  sha1 "0e357527e5cb09822a8d3e164fde384d99b6dbc9"
-  version "3.0.0-beta30"
+  homepage "http://www.argos-sim.info/"
+  url "https://github.com/ilpincy/argos3/archive/3.0.0-beta31.tar.gz"
+  sha1 "f4f16593b0380607017912e3c092227ad2e60636"
+  version "3.0.0-beta31"
   head "https://github.com/ilpincy/argos3.git"
 
   option 'without-qt', 'Compile without the Qt-OpenGL visualization'
@@ -18,7 +18,7 @@ class Argos3 < Formula
   depends_on "gsl"
   depends_on "libpng"
   depends_on "freeimage"
-  depends_on "lua" => :recommended
+  depends_on "lua"
   depends_on "qt" => :recommended
   depends_on "bash-completion" => :recommended
 
