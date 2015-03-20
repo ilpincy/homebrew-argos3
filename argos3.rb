@@ -3,7 +3,7 @@ require "formula"
 class Argos3 < Formula
   homepage "http://www.argos-sim.info/"
   url "https://github.com/ilpincy/argos3/archive/3.0.0-beta31.tar.gz"
-  sha1 "f4f16593b0380607017912e3c092227ad2e60636"
+  sha1 "1dea6fa9aa7d0ca3aaf833c48724710bcb27b114"
   version "3.0.0-beta31"
   head "https://github.com/ilpincy/argos3.git"
 
