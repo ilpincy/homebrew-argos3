@@ -4,12 +4,12 @@ class Argos3 < Formula
   VERSION_MAJOR   = "3"
   VERSION_MINOR   = "0"
   VERSION_PATCH   = "0"
-  VERSION_RELEASE = "beta39"
+  VERSION_RELEASE = "beta40"
   VERSION_FULL    = "#{VERSION_MAJOR}.#{VERSION_MINOR}.#{VERSION_PATCH}-#{VERSION_RELEASE}"
   
   homepage "http://www.argos-sim.info/"
   url "https://github.com/ilpincy/argos3/archive/#{VERSION_FULL}.tar.gz"
-  sha1 "8543caa473761185ab09794f84875e149fa48509"
+  sha1 "ba3c744054557a82af0afbf65d6d2e509e710ddd"
   version VERSION_FULL
   head "https://github.com/ilpincy/argos3.git"
 
