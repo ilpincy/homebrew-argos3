@@ -4,12 +4,12 @@ class Argos3 < Formula
   VERSION_MAJOR   = "3"
   VERSION_MINOR   = "0"
   VERSION_PATCH   = "0"
-  VERSION_RELEASE = "beta45"
+  VERSION_RELEASE = "beta46"
   VERSION_FULL    = "#{VERSION_MAJOR}.#{VERSION_MINOR}.#{VERSION_PATCH}-#{VERSION_RELEASE}"
   
   homepage "http://www.argos-sim.info/"
   url "https://github.com/ilpincy/argos3/archive/#{VERSION_FULL}.tar.gz"
-  sha256 "770b1ba8c193a422f88acb7e4d3b3233450b74ca09689e6f25b545b97dbe291c"
+  sha256 "30a5bdec219aea566015e1d9af1f97b6af95bbdc183adafc2792da1c6d6fc26a"
   version VERSION_FULL
   head "https://github.com/ilpincy/argos3.git"
 
@@ -28,7 +28,7 @@ class Argos3 < Formula
   def install
     mkdir "build_simulator"
     cd "build_simulator"
-    system "cmake", "../src", "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_PREFIX=#{prefix}", "-DARGOS_BUILD_NATIVE=ON", "-DCPACK_PACKAGE_VERSION_MAJOR=#{VERSION_MAJOR}", "-DCPACK_PACKAGE_VERSION_MINOR=#{VERSION_MINOR}", "-DCPACK_PACKAGE_VERSION_PATCH=#{VERSION_PATCH}", "-DCPACK_PACKAGE_RELEASE=#{VERSION_RELEASE}", "-DARGOS_BREW_QT_CELLAR=#{HOMEBREW_PREFIX}/Cellar/qt5"
+    system "cmake", "../src", "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_PREFIX=#{prefix}", "-DARGOS_BUILD_NATIVE=ON", "-DCPACK_PACKAGE_VERSION_MAJOR=#{VERSION_MAJOR}", "-DCPACK_PACKAGE_VERSION_MINOR=#{VERSION_MINOR}", "-DCPACK_PACKAGE_VERSION_PATCH=#{VERSION_PATCH}", "-DCPACK_PACKAGE_RELEASE=#{VERSION_RELEASE}", "-DARGOS_BREW_QT_CELLAR=#{HOMEBREW_PREFIX}/Cellar/qt"
     system "make"
     system "make doc"
     system "make install"
