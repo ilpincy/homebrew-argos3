@@ -9,7 +9,7 @@ class Argos3 < Formula
   
   homepage "http://www.argos-sim.info/"
   url "https://github.com/ilpincy/argos3/archive/#{VERSION_FULL}.tar.gz"
-  sha256 "8909f662c16369643c49efa94dd22884930ed1b26a2fb0abde167264447ca355"
+  sha256 "d96637607f54138cb630e13dc644ba1d669cf740596ae50c1eb9a8703fccfb1c"
   version VERSION_FULL
   head "https://github.com/ilpincy/argos3.git"
 
