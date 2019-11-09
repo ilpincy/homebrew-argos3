@@ -22,7 +22,7 @@ class Argos3 < Formula
   depends_on "qt"
   depends_on "libpng"
   depends_on "freeimage"
-  depends_on "lua"
+  depends_on "lua" => :recommended
   depends_on "bash-completion" => :recommended
 
   def install
