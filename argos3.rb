@@ -4,12 +4,12 @@ class Argos3 < Formula
   VERSION_MAJOR   = "3"
   VERSION_MINOR   = "0"
   VERSION_PATCH   = "0"
-  VERSION_RELEASE = "beta54"
+  VERSION_RELEASE = "beta56"
   VERSION_FULL    = "#{VERSION_MAJOR}.#{VERSION_MINOR}.#{VERSION_PATCH}-#{VERSION_RELEASE}"
   
   homepage "http://www.argos-sim.info/"
   url "https://github.com/ilpincy/argos3/archive/#{VERSION_FULL}.tar.gz"
-  sha256 "90fed4a082432ebc024d8c9c0640956bf3b3d6c736eb857cca4aea6e5a01791d"
+  sha256 "246516999fd283fc751f0548ec109bbe37e16c76730af68010c0145fa34f9576"
   version VERSION_FULL
   head "https://github.com/ilpincy/argos3.git"
 
@@ -22,7 +22,7 @@ class Argos3 < Formula
   depends_on "qt"
   depends_on "libpng"
   depends_on "freeimage"
-  depends_on "lua" => :recommended
+  depends_on "lua"
   depends_on "bash-completion" => :recommended
 
   def install
